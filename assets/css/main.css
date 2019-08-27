@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #0A2239;
 		line-height: 1.25em;
 	}
 
@@ -140,7 +140,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: #0A2239;
 	}
 
 	em, i {
@@ -1799,7 +1799,9 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 4em 0;
-			padding: 45px;
+			padding-top: 30px;
+			padding-right: 45px;
+			padding-left: 45px;
 		}
 
 		.image.left {
@@ -1936,7 +1938,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #8BADBF;
 				}
 
 /* Form */
@@ -2056,7 +2058,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #8BADBF;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2078,7 +2080,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #3C627B;
 		}
 
 		input[type="button"].alt,
@@ -2223,10 +2225,11 @@ input, select, textarea {
 
 		#header .button {
 			display: inline-block;
-			border-radius: 100%;
+			/*border-radius: 100%;*/
+			background: none;
+			border: 1px solid white;
 			width: 4.5em;
-			height: 4.5em;
-			line-height: 4.5em;
+			line-height: 2.0em;
 			text-align: center;
 			font-size: 1.25em;
 			padding: 0;
@@ -2460,14 +2463,14 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
-		background: #2b252c;
+		/*padding: 6em 0 6em 0;*/
+		background: #0A2239;
 		color: #fff;
 	}
 
 		#footer .icon.circled {
 			background: #fff;
-			color: #2b252c;
+			color: #0A2239;
 		}
 
 		#footer header {
