@@ -1804,6 +1804,14 @@ input, select, textarea {
 			padding-left: 45px;
 		}
 
+		.image.team {
+			display: block;
+			width: 400px;
+			height: 400px;
+			padding-right: 45px;
+			padding-left: 45px;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1818,6 +1826,31 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+
+/* Image Text Officer Bios */
+
+	.officerBio {
+		position: absolute;
+		background: rgba(0, 0, 0, 0.25);
+		top: 0;
+		left: -10%;
+		width: 310px;
+		height: 310px;
+		padding-right: 20px;
+		padding-left: 20px;
+		transition: .5s;
+	}
+
+	.officerBio h1 {
+		color: white;
+		font-weight: 600;
+	}
+
+	.officerBio:hover {
+		left:  11%;
+		width: 310px;
+		height: 310px;
+	}
 
 /* List */
 
