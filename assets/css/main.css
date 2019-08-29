@@ -1997,7 +1997,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #483949;
+		color: #0A2239;
 		margin: 0 0 1em 0;
 	}
 
@@ -2026,7 +2026,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #df7366;
+			border-color: #8BADBF;
 		}
 
 	form input[type="text"],
@@ -2312,7 +2312,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: rgb(6, 8, 37);
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2431,7 +2431,7 @@ input, select, textarea {
 			}
 
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #8BADBF;
 			}
 
 			.dropotron li a, .dropotron li span {
