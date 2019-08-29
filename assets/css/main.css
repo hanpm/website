@@ -1804,6 +1804,15 @@ input, select, textarea {
 			padding-left: 45px;
 		}
 
+		.image.contactIcons {
+			display: block;
+			width: 100%;
+			margin: 0 0 4em 0;
+			padding-top: 30px;
+			padding-right: 45px;
+			padding-left: 45px;
+		}
+
 		.image.team {
 			display: block;
 			width: 400px;
@@ -1822,10 +1831,19 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
+		.image.centered img {
+			margin: 0 auto;
+			width: auto;
+		}
+
+		.contactIcons img:hover  {
+			-webkit-filter: brightness(70%);
+			-webkit-transition: all 1s ease;
+			-moz-transition: all 1s ease;
+			-o-transition: all 1s ease;
+			-ms-transition: all 1s ease;
+			transition: all 1s ease;
+		}
 
 /* Image Text Officer Bios */
 
